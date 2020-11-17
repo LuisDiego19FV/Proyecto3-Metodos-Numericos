@@ -38,7 +38,7 @@ a3 = -(alfa+delta)/c_v
 
 # x, y arrays
 x_list = [i*h for i in range(int(math.ceil(limit/h)))]
-y_list = [y]
+y_list = []
 
 func = lambda z, y: a3 - a1*z - a2*y 
 
